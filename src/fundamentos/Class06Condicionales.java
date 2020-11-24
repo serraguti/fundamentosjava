@@ -11,6 +11,7 @@ public class Class06Condicionales {
         System.out.println("Introduzca un número");
         //LEEMOS EL DATO QUE NOS HA PROPORCIONADO
         //EL USUARIO
+
         String dato = teclado.nextLine();
 
         //EVALUAR SI UN NUMERO ES POSITIVO O NEGATIVO
