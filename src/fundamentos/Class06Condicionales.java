@@ -5,7 +5,7 @@ import java.util.Scanner;
 public class Class06Condicionales {
 
     public static void main(String[] args) {
-        //CREAMOS SCANNER PARA PEDIR DATO AL USUARIO
+        //CREAREMOS SCANNER PARA PEDIR DATO AL USUARIO
         Scanner teclado = new Scanner(System.in);
         //ESCRIBIMOS UN MENSAJE PARA PEDIR UN DATO
         System.out.println("Introduzca un número");
