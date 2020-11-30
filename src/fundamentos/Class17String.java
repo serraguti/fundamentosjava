@@ -27,7 +27,7 @@ public class Class17String {
         //startsWith ( ??? )
         //equalsIgnoreCase ( ?? )
         System.out.println("equals('curso de apps java'): " + texto.equals("curso de apps java"));
-        System.out.println("equalsIgnoreCase( 'curso de apps java'): "
+        System.out.println("equalsIgnoreCase('curso de apps java'): "
                 + texto.equalsIgnoreCase("curso de apps java"));
         String dato = "curso";
         //QUEREMOS SABER SI EL TEXTO COMIENZA CON curso
