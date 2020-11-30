@@ -7,7 +7,7 @@ public class Class12Bucles {
     public static void main(String[] args) {
         //DECLARAMOS UN BUCLE DE 1 a 5
         for (int i = 1; i <= 5; i++) {
-            //INSTRUCCIONES
+            //INSTRUCCIONES 
             System.out.println("Contador: " + i);
         }
 

@@ -33,6 +33,6 @@ public class Class15Collatz {
         } else {
             System.out.println("El número debe ser POSITIVO");
         }
-        System.out.println("Fin de programa");
+        System.out.println("Fin de programa ");
     }
 }

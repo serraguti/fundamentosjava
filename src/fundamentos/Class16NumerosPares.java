@@ -38,6 +38,6 @@ public class Class16NumerosPares {
             System.out.println("El número inicial " + inicio
                     + " debe ser menor al número final: " + fin);
         }
-        System.out.println("Fin de programa");
+        System.out.println("Fin de programa ");
     }
 }

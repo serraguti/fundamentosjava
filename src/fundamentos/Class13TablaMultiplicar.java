@@ -13,7 +13,7 @@ public class Class13TablaMultiplicar {
             int multi = numero * i;
             System.out.println(numero + "*" + i + "=" + multi);
         }
-        System.out.println("Fin de programa");
+        System.out.println("Fin de programa ");
         //NECESITAMOS UN CONTADOR HASTA 10
         int contador = 1;
         while (contador <= 10) {

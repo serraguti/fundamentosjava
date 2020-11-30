@@ -9,7 +9,7 @@ public class Class10SalarioTrabajadores {
         int horassemanales, distancia, precio, horasextra, dietas;
         //VARIABLE PARA SABER EL TIPO DE DIETAS QUE TIENE EL USUARIO
         String tipodietas;
-        //PEDIMOS DATOS AL USUARIO
+        //PEDIMOS DATOS AL USUARIO 
         System.out.println("Horas semanales trabajadas: ");
         String datohoras = teclado.nextLine();
         System.out.println("Distancia recorrida (Km): ");

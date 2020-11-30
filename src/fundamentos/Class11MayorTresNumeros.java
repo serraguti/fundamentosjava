@@ -13,7 +13,7 @@ public class Class11MayorTresNumeros {
         String dato1 = teclado.nextLine();
         System.out.println("Introduzca número 2: ");
         String dato2 = teclado.nextLine();
-        System.out.println("Introduzca número 3: ");
+        System.out.println("Introduzca número 3 : ");
         String dato3 = teclado.nextLine();
         //CONVERTIMOS LOS TEXTOS A NUMEROS
         numero1 = Integer.parseInt(dato1);

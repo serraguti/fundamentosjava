@@ -9,7 +9,7 @@ public class Class14AccionesNumeros {
         System.out.println("Introduzca un número");
         String dato = teclado.nextLine();
         int numero = Integer.parseInt(dato);
-        System.out.println("Introduzca acción: Sumar o multiplicar (S|M)");
+        System.out.println("Introduzca acción: Sumar o Multiplicar (S|M)");
         String accion = teclado.nextLine();
         int valor = 0;
         //NO SABEMOS CUANDO EL USUARIO VA A ESCRIBIR
