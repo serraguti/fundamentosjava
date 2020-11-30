@@ -25,6 +25,17 @@ public class Class07Estaciones {
                 break;
             default:
                 System.out.println("Opción incorrecta (1-4)");
+                if (estacion == 1) {
+                    System.out.println("OTOÑO");
+                } else if (estacion == 2) {
+                    System.out.println("INVIERNO");
+                } else if (estacion == 3) {
+                    System.out.println("PRIMAVERA");
+                } else if (estacion == 4) {
+                    System.out.println("VERANO");
+                } else {
+                    System.out.println("Opción incorrecta");
+                }
         }
     }
 }
