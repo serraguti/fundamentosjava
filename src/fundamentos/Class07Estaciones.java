@@ -10,32 +10,16 @@ public class Class07Estaciones {
         String dato = teclado.nextLine();
         //DEBEMOS CONVERTIR EL DATO String en int
         int estacion = Integer.parseInt(dato);
-        switch (estacion) {
-            case 1:
-                System.out.println("OTOÑO");
-                break;
-            case 2:
-                System.out.println("INVIERNO");
-                break;
-            case 3:
-                System.out.println("PRIMAVERA");
-                break;
-            case 4:
-                System.out.println("VERANO");
-                break;
-            default:
-                System.out.println("Opción incorrecta (1-4)");
-                if (estacion == 1) {
-                    System.out.println("OTOÑO");
-                } else if (estacion == 2) {
-                    System.out.println("INVIERNO");
-                } else if (estacion == 3) {
-                    System.out.println("PRIMAVERA");
-                } else if (estacion == 4) {
-                    System.out.println("VERANO");
-                } else {
-                    System.out.println("Opción incorrecta");
-                }
+        if (estacion == 1) {
+            System.out.println("OTOÑO");
+        } else if (estacion == 2) {
+            System.out.println("INVIERNO");
+        } else if (estacion == 3) {
+            System.out.println("PRIMAVERA");
+        } else if (estacion == 4) {
+            System.out.println("VERANO");
+        } else {
+            System.out.println("Opción incorrecta");
         }
     }
 }
