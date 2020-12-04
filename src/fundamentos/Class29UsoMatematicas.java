@@ -16,6 +16,7 @@ public class Class29UsoMatematicas {
         //QUIERO MOSTRAR UN MENU AL USUARIO Y QUE SELECCIONE
         //ENTRE LAS OPCIONES QUE DESEE.
         Scanner teclado = new Scanner(System.in);
+
         Matematicas mates = new Matematicas();
         //MOSTRAMOS EL MENU DE MATES
         mates.menuMatematicas();

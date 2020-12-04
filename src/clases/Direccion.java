@@ -3,12 +3,19 @@ package clases;
 public class Direccion {
 
     public Direccion() {
-        System.out.println("Constructor de dirección");
+        System.out.println("Constructor Dirección sin parámetros");
+        this.calle = "";
+        this.ciudad = "";
+        this.numero = 0;
+    }
+
+    public Direccion(String calle, String ciudad, int numero) {
+        System.out.println("Constructor de dirección parámetros");
         //PODEMOS INICIAR LAS VARIABLES CON VALORES
         //PREDETERMINADOS
-        this.calle = "Calle Sin asignar";
-        this.ciudad = "No existe";
-        this.numero = 0;
+        this.calle = calle;
+        this.ciudad = ciudad;
+        this.numero = numero;
     }
 
     private String calle;

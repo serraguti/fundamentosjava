@@ -20,11 +20,14 @@ public class Class30UsoPersona {
             //QUE DESEAMOS GUARDAR??? UN OBJETO DIRECCION
             //SI QUEREMOS UTILIZAR UNA DIRECCION, DEBEMOS CREAR
             //UNA DIRECCION...
-            Direccion direccioncasa = new Direccion();
+            //ESTAMOS OBLIGADOS A PASAR LOS PARAMETROS PARA
+            //PODER CREAR UN OBJETO DE ESA CLASE
+            Direccion direccioncasa = new Direccion("Calle Canarias", "Alicante", 21);
+            Direccion direccion = new Direccion();
             //ALMACENAMOS LOS DATOS DE LA DIRECCION
             //direccioncasa.setCalle("Calle pez");
-            direccioncasa.setCiudad("Madrid");
-            direccioncasa.setNumero(14);
+            //direccioncasa.setCiudad("Madrid");
+            //direccioncasa.setNumero(14);
             //GUARDAMOS EN EL DOMICILIO DE LA PERSONA, LA DIRECCION
             persona.setDomicilio(direccioncasa);
 
