@@ -3,7 +3,16 @@ package clases;
 public class Persona {
 
     //<editor-fold defaultstate="collapsed" desc="CONSTRUCTOR DE PERSONA">
-    //UN CONSTRUCTOR ES UNA HERRAMIENTA PARA PODER INICIAR OBJETOS
+    public Persona() {
+        System.out.println("Constructor Persona");
+    }
+
+    public Persona(String nombre, int edad) {
+        System.out.println("Constructor con parámetros Persona");
+        this.nombre = nombre;
+        this.edad = edad;
+    }
+
 //</editor-fold>
     // <editor-fold defaultstate="collapsed" desc="CAMPOS DE LA CLASE">
     //LOS CAMPOS DE PROPIEDAD SON PRIVADOS
