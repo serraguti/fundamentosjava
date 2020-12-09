@@ -2,12 +2,23 @@ package clases;
 
 public class Trabajador extends Persona {
 
+    @Override
+    public String toString() {
+        return this.getNombreCompleto();
+    }
+
     //CAMPOS
     //CONSTRUCTORES
     //GETTER Y SETTER
     //METODOS
     public int getVacaciones() {
-        return 22;
+        System.out.println("GetVacaciones trabajador");
+        return 25;
+    }
+
+    public int getVacaciones(int extras) {
+        System.out.println("GetVacaciones trabajador");
+        return 22 + extras;
     }
 
     protected int salarioMinimo;

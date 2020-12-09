@@ -9,6 +9,15 @@ public class Director extends Trabajador {
 
     @Override
     public int getVacaciones() {
-        return 30;
+        System.out.println("GetVacaciones Director");
+        //NECESITAMOS LEER EL NUMERO DE VACACIONES DEL
+        //METODO SOBRESCRITO (TRABAJADOR)
+        int numvacastrabajador = super.getVacaciones();
+        return numvacastrabajador + 8;
+    }
+
+    @Override
+    public String toString() {
+        return "Soy un super Dire";
     }
 }

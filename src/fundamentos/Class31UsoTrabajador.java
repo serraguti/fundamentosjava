@@ -17,8 +17,12 @@ public class Class31UsoTrabajador {
         System.out.println("Salario: " + tra.getSalario());
         System.out.println("Salario minimo Trabajador: " + tra.getSalarioMinimo());
         Director dire = new Director();
+        dire.setNombre("Director");
+        dire.setApellidos("dire dire");
         System.out.println("Salario mínimo Director: " + dire.getSalarioMinimo());
-        System.out.println("vacaciones Trabajador: " + tra.getVacaciones());
-        System.out.println("vacaciones Director: " + dire.getVacaciones());
+        //System.out.println("Vacaciones Trabajador: " + tra.getVacaciones());
+        System.out.println("Vacaciones Director: " + dire.getVacaciones());
+        System.out.println("Trabajador " + tra.toString());
+        System.out.println("Director " + dire.toString());
     }
 }
